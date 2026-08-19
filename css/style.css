@@ -216,23 +216,6 @@ button{font:inherit}
 .scroll-hint span{font-size:8px;letter-spacing:.18em;font-weight:800}
 .scroll-hint i{width:38px;height:1px;background:var(--muted);display:block}
 
-/* TRADITIONAL-INSPIRED LINE PATTERN */
-.hero-pattern{
-  position:absolute;
-  right:-12vw;
-  bottom:-15vw;
-  width:48vw;
-  height:48vw;
-  max-width:650px;
-  max-height:650px;
-  opacity:.32;
-  background:
-    linear-gradient(90deg,transparent 49.7%,var(--line) 49.8%,var(--line) 50.2%,transparent 50.3%),
-    linear-gradient(0deg,transparent 49.7%,var(--line) 49.8%,var(--line) 50.2%,transparent 50.3%);
-  background-size:25% 25%;
-  mask-image:linear-gradient(135deg,transparent 15%,#000 60%);
-}
-
 /* ABOUT */
 .about-layout{display:grid;grid-template-columns:1fr 1fr;gap:10vw}
 .large-copy p{
@@ -354,7 +337,6 @@ button{font:inherit}
   .hero-inner{grid-template-columns:1fr;gap:50px}
   .hero-copy{padding-left:0}
   .hero-art-placeholder{justify-self:center;width:min(430px,82vw)}
-  .hero-pattern{width:90vw;height:90vw;right:-40vw;bottom:-25vw}
   .scroll-hint{display:none}
   .section{padding:95px 0}
   .section-title{margin-bottom:50px}
