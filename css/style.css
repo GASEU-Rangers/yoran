@@ -297,6 +297,7 @@ button{font:inherit}
   border:1px solid var(--line);
   background:var(--paper);
 }
+.release + .release{margin-top:12px;}
 .release h3{margin:9px 0 4px;font-size:26px;letter-spacing:-.05em}
 .release h3 span{font-size:10px;font-weight:600;color:var(--muted);letter-spacing:.05em;margin-left:7px}
 .release-meta{margin:0;color:var(--muted);font-size:11px}
@@ -370,6 +371,41 @@ button{font:inherit}
   .site-footer div{align-items:flex-start;flex-direction:column;gap:4px}
 }
 
+/* CREDITS */
+
+.credits-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1px;
+  background:var(--dark-line);
+}
+
+.credit-card{
+  min-height:220px;
+  padding:35px;
+  background:var(--dark);
+}
+
+.credit-card > span{
+  display:block;
+  font-size:9px;
+  color:#777;
+  font-weight:800;
+  letter-spacing:.15em;
+}
+
+.credit-card h3{
+  margin:45px 0 8px;
+  font-size:25px;
+  letter-spacing:-.04em;
+}
+
+.credit-card p{
+  margin:0;
+  color:#999;
+  font-size:11px;
+}
+
 @media(max-width:480px){
   .section-inner{width:86vw}
   .hero{padding-left:7vw;padding-right:7vw}
@@ -377,4 +413,6 @@ button{font:inherit}
   .info-table div{grid-template-columns:105px 1fr}
   .history-row{grid-template-columns:90px 1fr;gap:8px}
   .history-row time{grid-column:2}
+  .credits-grid{grid-template-columns:1fr;}
+  .credit-card{min-height:180px;}
 }
