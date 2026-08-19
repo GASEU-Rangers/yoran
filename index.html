@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header" id="top">
+  <header class="site-header">
     <a class="brand" href="#home" aria-label="YORAN home">
       <span class="brand-ko">요란</span>
       <span class="brand-en">YORAN</span>
@@ -292,7 +292,9 @@
       <strong>요란 ‘YORAN’</strong>
       <span>UTAU VOICEBANK</span>
     </div>
-    <a href="#top">BACK TO TOP ↑</a>
+    <a href="#" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">
+      BACK TO TOP ↑
+    </a>
   </footer>
 
   <script src="js/script.js"></script>
