@@ -434,38 +434,9 @@ button{font:inherit}
   color:var(--ink);
 }
 
-.profile-layout{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:10vw;
-  align-items:start;
-}
-
-.profile-image{
-  aspect-ratio:4/5;
-  background:var(--paper);
-  border:1px solid rgba(23,23,23,.25);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:hidden;
-}
-
-.profile-image img{
-  width:100%;
-  height:100%;
-  object-fit:contain;
-}
-
-.profile-image-placeholder{
-  color:#686a61;
-  font-size:10px;
-  font-weight:800;
-  letter-spacing:.15em;
-}
-
 .profile-content{
-  max-width:560px;
+  width:100%;
+  max-width:none;
 }
 
 .profile-name{
@@ -482,7 +453,18 @@ button{font:inherit}
   letter-spacing:.12em;
 }
 
+
+/* BASIC INFORMATION + VOICE */
+.profile-info-layout{
+  width:100%;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  align-items:start;
+}
+
 .profile-block{
+  min-width:0;
   border-top:1px solid rgba(23,23,23,.35);
 }
 
@@ -551,17 +533,9 @@ button{font:inherit}
 }
 
 @media(max-width:820px){
-  .profile-layout{
+  .profile-info-layout{
     grid-template-columns:1fr;
-    gap:45px;
-  }
-
-  .profile-image{
-    width:min(100%,460px);
-  }
-
-  .profile-content{
-    max-width:none;
+    gap:35px;
   }
 }
 
