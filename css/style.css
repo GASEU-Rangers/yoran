@@ -194,11 +194,20 @@ button{font:inherit}
   background:rgba(244,243,239,.45);
   position:relative;
 }
-.hero-art-placeholder::before,
-.hero-art-placeholder::after{
-  content:"";
-  position:absolute;
-  background:var(--line);
+.hero-art{
+  width:min(460px,100%);
+  justify-self:end;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.hero-art img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:70vh;
+  object-fit:contain;
 }
 .hero-art-placeholder::before{width:1px;height:100%;left:25%}
 .hero-art-placeholder::after{height:1px;width:100%;top:25%}
@@ -336,7 +345,7 @@ button{font:inherit}
   .hero{padding-top:105px;min-height:auto;padding-bottom:100px}
   .hero-inner{grid-template-columns:1fr;gap:50px}
   .hero-copy{padding-left:0}
-  .hero-art-placeholder{justify-self:center;width:min(430px,82vw)}
+  .hero-art{justify-self:center;width:min(430px,82vw);}
   .scroll-hint{display:none}
   .section{padding:95px 0}
   .section-title{margin-bottom:50px}
