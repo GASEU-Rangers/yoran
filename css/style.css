@@ -313,26 +313,6 @@ button{font:inherit}
 }
 .history-row span,.history-row time{color:var(--muted)}
 
-/* DOWNLOAD SECTION COLOR */
-
-#download{
-  background:var(--accent);
-  color:var(--ink);
-}
-
-#download .section-title{
-  border-bottom-color:rgba(23,23,23,.35);
-}
-
-#download .section-title span{
-  color:rgba(23,23,23,.6);
-}
-
-#download .release{
-  background:var(--paper);
-  border-color:rgba(23,23,23,.25);
-}
-
 /* TERMS */
 .terms-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--dark-line)}
 .terms-grid article{background:var(--dark);padding:35px;min-height:230px}
@@ -411,7 +391,7 @@ button{font:inherit}
   display:grid;
   grid-template-columns:repeat(3, minmax(0, 1fr));
   gap:1px;
-  background:var(--line);
+  background:var(--accent);
   border:1px solid var(--line);
 }
 
