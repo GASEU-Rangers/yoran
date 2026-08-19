@@ -254,7 +254,7 @@ button{font:inherit}
   padding:14px 0;
   border-bottom:1px solid var(--line);
 }
-.info-table dt{font-size:9px;font-weight:800;letter-spacing:.13em;color:var(--muted)}
+.info-table dt{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--muted)}
 .info-table dd{margin:0;color:var(--ink);font-size:12px}
 
 /* VOICEBANK */
