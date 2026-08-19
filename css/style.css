@@ -430,7 +430,7 @@ button{font:inherit}
 
 /* PROFILE */
 .section-profile{
-  background:var(--accent);
+  background:var(--bg);
   color:var(--ink);
 }
 
