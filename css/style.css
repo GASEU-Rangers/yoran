@@ -295,7 +295,7 @@ button{font:inherit}
   gap:35px;
   padding:38px;
   border:1px solid var(--line);
-  background:var(--paper);
+  background:var(--line);
 }
 .release + .release{margin-top:12px;}
 .release h3{margin:9px 0 4px;font-size:26px;letter-spacing:-.05em}
