@@ -16,13 +16,13 @@ const voicebanks = [
 const demos = [
   {
     title: "DEMO SONG 01",
-    creator: "Music by YOUR NAME",
-    youtubeId: "dQw4w9WgXcQ"
+    creator: "압생트 - 박화애",
+    youtubeId: "fUi1QGJqKy0?si"
   },
   {
     title: "DEMO SONG 02",
-    creator: "Music by YOUR NAME",
-    youtubeId: "dQw4w9WgXcQ"
+    creator: "요란 - 심규선",
+    youtubeId: "FHM0gxolq6o?si"
   }
 ];
 
