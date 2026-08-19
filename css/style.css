@@ -323,7 +323,7 @@ button{font:inherit}
 
 /* FOOTER */
 .site-footer{
-  padding:35px max(5vw,calc((100vw - var(--max))/2));
+  padding:35px max(5vw, calc((100vw - var(--max)) / 2));
   background:#10110f;
   color:#f7f6f2;
   display:flex;
@@ -346,10 +346,11 @@ button{font:inherit}
 .site-footer .footer-links{
   display:flex;
   align-items:center;
-  gap:25px;
 }
 
 .site-footer .footer-links a{
+  color:#f7f6f2;
+  text-decoration:none;
   transition:color .2s;
 }
 
