@@ -436,5 +436,5 @@ button{font:inherit}
   .history-row{grid-template-columns:90px 1fr;gap:8px}
   .history-row time{grid-column:2}
   .credits-grid{grid-template-columns:1fr;}
-  .credit-card{min-height:180px;}
+  .credit-card{min-height:190px;}
 }
