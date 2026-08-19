@@ -346,7 +346,7 @@ button{font:inherit}
 .site-footer .footer-links{
   display:flex;
   align-items:center;
-  gap:35px;
+  gap:25px;
 }
 
 .site-footer .footer-links a{
