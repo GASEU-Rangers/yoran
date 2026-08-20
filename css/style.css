@@ -209,51 +209,6 @@ button{font:inherit}
   min-height:0;
 }
 
-.hero-art::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  pointer-events:none;
-  z-index:2;
-
-  background:
-    repeating-linear-gradient(
-      0deg,
-      transparent 0px,
-      transparent 2px,
-      rgba(23,23,23,.08) 3px
-    );
-
-  opacity:0;
-  animation:yoran-noise 8s infinite;
-}
-
-@keyframes yoran-noise{
-  0%, 90%, 100%{
-    opacity:0;
-  }
-
-  91%{
-    opacity:.18;
-  }
-
-  92%{
-    opacity:.03;
-  }
-
-  93%{
-    opacity:.25;
-  }
-
-  94%{
-    opacity:.08;
-  }
-
-  95%{
-    opacity:0;
-  }
-}
-
 .hero-art img{
   display:block;
 
